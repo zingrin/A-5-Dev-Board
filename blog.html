@@ -22,82 +22,39 @@
       </header>
       <section class="w-11/12 mx-auto">
         <h1 class="text-2xl font-bold text-center p-4">Blog</h1>
-        <div class="bg-white shadow-lg rounded p-6">
-<h1 class="text-xl font-bold">Question-1: What are the different ways to select an element in the DOM?
-</h1>
-<p>DOM থেকে এলিমেন্ট সিলেক্ট করার কয়েকটি উপায় আছে:  
-
-    1. **`getElementById("id")`** – ID দিয়ে একক এলিমেন্ট সিলেক্ট করে।  
-    2. **`getElementsByClassName("class")`** – নির্দিষ্ট ক্লাসের সব এলিমেন্ট নেয়।  
-    3. **`getElementsByTagName("tag")`** – নির্দিষ্ট ট্যাগের সব এলিমেন্ট নেয়।  
-    4. **`querySelector("selector")`** – প্রথম মেলে এমন এলিমেন্ট নেয় (CSS সিলেক্টর ব্যবহার করে)।  
-    5. **`querySelectorAll("selector")`** – সব মেলে এমন এলিমেন্ট নেয় (NodeList রিটার্ন করে)।  
-    6. **`getElementsByName("name")`** – `name` অ্যাট্রিবিউটের ভিত্তিতে এলিমেন্ট নেয়।  
-    
-    সবচেয়ে ফ্লেক্সিবল `querySelector()`, আর সবচেয়ে দ্রুত `getElementById()`।</p>
+           
+    <div class="bg-white shadow-lg rounded p-6 mb-4">
+        <h1 class="text-xl font-bold">Question-1: What are the different ways to select an element in the DOM?
+        </h1>
+        <p> DOM elements by ID (getElementById), class (getElementsByClassName), tag (getElementsByTagName), or CSS selectors (querySelector,querySelectorAll).For a single element, use querySelector(), and for multiple, use querySelectorAll()!</p>
+                </div>
+                <div class="bg-white shadow-lg rounded p-6 mb-4">
+        <h1 class="text-xl font-bold">Question-2: What is the difference between innerHTML, innerText, and textContent ?
+        
+        </h1>
+        <p>innerHTML – Gets or sets the HTML content inside an element. It processes and renders HTML tags.
+            innerText – Gets or sets only visible text, ignoring hidden text. It does not process HTML tags.
+            textContent – Gets or sets all text, including hidden text, but does not process HTML tags.</p>
+                </div>
+                <div class="bg-white shadow-lg rounded p-6 mb-4">
+        <h1 class="text-xl font-bold">Question-3: What is event delegation in the DOM?
+        
+        </h1>
+        <p>Event delegation means setting an event listener on a parent element instead of each child. </p>
+                </div>
+                <div class="bg-white shadow-lg rounded p-6 mb-4">
+        <h1 class="text-xl font-bold">Question-4: What is event bubbling in the DOM?
+        
+        </h1>
+        <p>Event bubbling is when an event occurs on a child element, and it travels up to its parent, then grandparent, until it reaches the document.</p>
         </div>
-        <div class="bg-white shadow-lg rounded p-6">
-<h1 class="text-xl font-bold">Question-1: What are the different ways to select an element in the DOM?
-</h1>
-<p>DOM থেকে এলিমেন্ট সিলেক্ট করার কয়েকটি উপায় আছে:  
-
-    1. **`getElementById("id")`** – ID দিয়ে একক এলিমেন্ট সিলেক্ট করে।  
-    2. **`getElementsByClassName("class")`** – নির্দিষ্ট ক্লাসের সব এলিমেন্ট নেয়।  
-    3. **`getElementsByTagName("tag")`** – নির্দিষ্ট ট্যাগের সব এলিমেন্ট নেয়।  
-    4. **`querySelector("selector")`** – প্রথম মেলে এমন এলিমেন্ট নেয় (CSS সিলেক্টর ব্যবহার করে)।  
-    5. **`querySelectorAll("selector")`** – সব মেলে এমন এলিমেন্ট নেয় (NodeList রিটার্ন করে)।  
-    6. **`getElementsByName("name")`** – `name` অ্যাট্রিবিউটের ভিত্তিতে এলিমেন্ট নেয়।  
-    
-    সবচেয়ে ফ্লেক্সিবল `querySelector()`, আর সবচেয়ে দ্রুত `getElementById()`।</p>
-        </div>
-        <div class="bg-white shadow-lg rounded p-6">
-<h1 class="text-xl font-bold">Question-2: What is the difference between innerHTML, innerText, and textContent ?
-
-</h1>
-<p></p>
-        </div>
-        <div class="bg-white shadow-lg rounded p-6">
-<h1 class="text-xl font-bold">Question-1: What are the different ways to select an element in the DOM?
-</h1>
-<p>DOM থেকে এলিমেন্ট সিলেক্ট করার কয়েকটি উপায় আছে:  
-
-    1. **`getElementById("id")`** – ID দিয়ে একক এলিমেন্ট সিলেক্ট করে।  
-    2. **`getElementsByClassName("class")`** – নির্দিষ্ট ক্লাসের সব এলিমেন্ট নেয়।  
-    3. **`getElementsByTagName("tag")`** – নির্দিষ্ট ট্যাগের সব এলিমেন্ট নেয়।  
-    4. **`querySelector("selector")`** – প্রথম মেলে এমন এলিমেন্ট নেয় (CSS সিলেক্টর ব্যবহার করে)।  
-    5. **`querySelectorAll("selector")`** – সব মেলে এমন এলিমেন্ট নেয় (NodeList রিটার্ন করে)।  
-    6. **`getElementsByName("name")`** – `name` অ্যাট্রিবিউটের ভিত্তিতে এলিমেন্ট নেয়।  
-    
-    সবচেয়ে ফ্লেক্সিবল `querySelector()`, আর সবচেয়ে দ্রুত `getElementById()`।</p>
-        </div>
-        <div class="bg-white shadow-lg rounded p-6">
-<h1 class="text-xl font-bold">Question-1: What are the different ways to select an element in the DOM?
-</h1>
-<p>DOM থেকে এলিমেন্ট সিলেক্ট করার কয়েকটি উপায় আছে:  
-
-    1. **`getElementById("id")`** – ID দিয়ে একক এলিমেন্ট সিলেক্ট করে।  
-    2. **`getElementsByClassName("class")`** – নির্দিষ্ট ক্লাসের সব এলিমেন্ট নেয়।  
-    3. **`getElementsByTagName("tag")`** – নির্দিষ্ট ট্যাগের সব এলিমেন্ট নেয়।  
-    4. **`querySelector("selector")`** – প্রথম মেলে এমন এলিমেন্ট নেয় (CSS সিলেক্টর ব্যবহার করে)।  
-    5. **`querySelectorAll("selector")`** – সব মেলে এমন এলিমেন্ট নেয় (NodeList রিটার্ন করে)।  
-    6. **`getElementsByName("name")`** – `name` অ্যাট্রিবিউটের ভিত্তিতে এলিমেন্ট নেয়।  
-    
-    সবচেয়ে ফ্লেক্সিবল `querySelector()`, আর সবচেয়ে দ্রুত `getElementById()`।</p>
-        </div>
-        <div class="bg-white shadow-lg rounded p-6">
-<h1 class="text-xl font-bold">Question-1: What are the different ways to select an element in the DOM?
-</h1>
-<p>DOM থেকে এলিমেন্ট সিলেক্ট করার কয়েকটি উপায় আছে:  
-
-    1. **`getElementById("id")`** – ID দিয়ে একক এলিমেন্ট সিলেক্ট করে।  
-    2. **`getElementsByClassName("class")`** – নির্দিষ্ট ক্লাসের সব এলিমেন্ট নেয়।  
-    3. **`getElementsByTagName("tag")`** – নির্দিষ্ট ট্যাগের সব এলিমেন্ট নেয়।  
-    4. **`querySelector("selector")`** – প্রথম মেলে এমন এলিমেন্ট নেয় (CSS সিলেক্টর ব্যবহার করে)।  
-    5. **`querySelectorAll("selector")`** – সব মেলে এমন এলিমেন্ট নেয় (NodeList রিটার্ন করে)।  
-    6. **`getElementsByName("name")`** – `name` অ্যাট্রিবিউটের ভিত্তিতে এলিমেন্ট নেয়।  
-    
-    সবচেয়ে ফ্লেক্সিবল `querySelector()`, আর সবচেয়ে দ্রুত `getElementById()`।</p>
-        </div>
+                <div class="bg-white shadow-lg rounded p-6 mb-4">
+        <h1 class="text-xl font-bold">Question-5: How do you create, add, and remove elements using JavaScript?
+        
+        </h1>
+        <p>Create an element.Add it using appendChild() or prepend().  
+            Remove it using remove().</p>
+                </div>
       </section>
       <script src="./utilities/utilities.js"></script>
       <script src="./js/script.js"></script>
